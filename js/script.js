@@ -33,7 +33,7 @@ document.querySelector('#push').onclick = function() {
             out += '<ul class="features">'
             out += '<li>' + 'Страна: ' + goods[key].country + '<br>';
             out += '<li>' + 'Город: ' + goods[key].town + '<br>';
-            out += '<li>' + 'Наличие: ' + goods[key].sklad + '<br>';
+            out += '<li>' + goods[key].sklad + '<br>';
             out += '</ul>'
             out += '<hr>'
             out += '<button class="button-primary">Купить</button>'
