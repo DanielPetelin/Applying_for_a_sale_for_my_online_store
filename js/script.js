@@ -39,8 +39,8 @@ document.querySelector('#push').onclick = function() {
             out += '<button class="button-primary">Купить</button>'
             out += '</div>';
             out += '</div>';
-            out += '</div>';
         };
+        out += '</div>';
         document.querySelector('#out').innerHTML = out;
     };
 };

@@ -7,26 +7,27 @@
     <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
 </head>
 <body>
-    <div class="pricing-table row">
-        <div class="col col-md-6 col-lg-4">
-          <div class="package">
-            <p class="package-name">Подать заявку</p>
-            <p><input type="text" id="name" placeholder="Название товара"></p>
-            <p><input type="number" id="cost" placeholder="Цена в ₽ / штука"></p>
-            <hr>
-            <ul class="features">
-                <input type="text" id="country" placeholder="Страна">
-                <input type="text" id="town" placeholder="Город">
-                <select id="availability">
-                    <option value="В наличии">В наличии</option>
-                    <option value="Распродано">Распродано</option>
-                </select>
-            </ul>
-            <button class="button-primary" id="push">Опубликовать</button>
-          </div>
+    <div id="out">
+        <div class="pricing-table row">
+            <div class="col col-md-6 col-lg-4">
+                <div class="package">
+                    <p class="package-name">Подать заявку</p>
+                    <p><input type="text" id="name" placeholder="Название товара"></p>
+                    <p><input type="number" id="cost" placeholder="Цена в ₽ / штука"></p>
+                    <hr>
+                    <ul class="features">
+                        <input type="text" id="country" placeholder="Страна">
+                        <input type="text" id="town" placeholder="Город">
+                        <select id="availability">
+                            <option value="В наличии">В наличии</option>
+                            <option value="Распродано">Распродано</option>
+                        </select>
+                    </ul>
+                    <button class="button-primary" id="push">Опубликовать</button>
+                </div>
+            </div>
         </div>
     </div>
-    <p id="out"></p>
     <script src="./js/script.js"></script>
 </body>
 </html>
