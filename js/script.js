@@ -5,7 +5,7 @@ document.querySelector('#push').onclick = function() {
     let town = document.querySelector('#town').value;
     let availability = document.querySelector('#availability').value;
 
-    if (name == '' || cost == '' || country == '' || town == '' || availability == '') {
+    if (name == '' || cost == '' || country == '' || town == '') {
         alert('Вы не заполнили какое либо поле');
     } else {
         let goods = {
